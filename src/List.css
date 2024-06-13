@@ -1,0 +1,15 @@
+.employee-container{
+    display: grid;
+    margin-top: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 5px;
+
+}
+.employee{
+    box-shadow: black;
+    background-color: blue;
+    color:white;
+    padding:10px;
+    border:2px solid black;
+    border-radius:5px;
+}
